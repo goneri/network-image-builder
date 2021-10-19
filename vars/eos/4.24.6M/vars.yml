@@ -1,5 +1,6 @@
 ---
 expect_responses:
+  "Escape character is.*": ""
   'localhost login: ': 'admin'
   'localhost>': enable
   'localhost#':

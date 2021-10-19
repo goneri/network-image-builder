@@ -4,7 +4,7 @@
 
 - name: Wait for image boot up
   pause:
-    seconds: 300
+    seconds: 180
 
 - arista.eos.eos_config:
     src: "{{ image_config_path | default (platform + '/' + build_version + '/config.j2') }}"
